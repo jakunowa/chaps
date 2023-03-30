@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  body{
+    font-family: 'Permanent Marker', cursive;
+  }
+/* section header */
+
+
+.ul-header{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    
+}
+.ul-header> li:not(:last-child){
+    margin-right:30px;}
+.li-header{
+    border-radius: 10%;
+    border:1px solid #666;
+
+    background-color: #fff;
+}
+a{text-decoration: none;
+color:black;
+font-weight: 700;}

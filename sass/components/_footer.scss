@@ -1,0 +1,26 @@
+.footer{
+    border-top:1 px solid white;
+    background-color: #404040;
+    padding:30px;
+
+    
+
+&__list{
+    display: flex;
+
+    gap:10px;
+    justify-content: center;
+
+
+}
+&__list-item{
+    margin:0;
+}
+&__list-social{
+    background-color:white;
+    border-radius: 50%;
+    padding:5px 8px;
+    
+}
+    
+}
